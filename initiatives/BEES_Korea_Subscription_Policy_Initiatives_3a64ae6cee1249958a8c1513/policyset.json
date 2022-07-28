@@ -1,0 +1,433 @@
+{
+ "properties": {
+  "displayName": "BEES Korea Subscription Policy Initiatives",
+  "policyType": "Custom",
+  "description": "",
+  "metadata": {
+   "createdBy": "76cf839d-4393-47f6-9ea7-0d7bb09e93a1",
+   "createdOn": "2022-07-11T04:22:12.5542778Z",
+   "updatedBy": "76cf839d-4393-47f6-9ea7-0d7bb09e93a1",
+   "updatedOn": "2022-07-28T06:35:10.7887483Z",
+   "parameterScopes": {
+    "vaultLocation": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d",
+    "backupPolicyId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/resourcegroups/bee-kor-kcn-rg-prod/providers/microsoft.recoveryservices/vaults/mgmtrsvault-kr-prod",
+    "listOfAllowedSKUs": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d"
+   }
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Storage Accounts should use a virtual network service endpoint_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/abbf916f-4152-4ba9-a3f6-20ec624e6b9e",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Geo-redundant storage should be enabled for Storage Accounts_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/f0db2197-e0cc-4c04-9c59-f53f1555ca00",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Key Vault should use a virtual network service endpoint_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/5ae756d4-8104-466a-a287-2ca71ee84318",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Flow logs should be configured for every network security group_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/c31def4d-2084-4493-bcdc-1da0eb6614bc",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Infrastructure encryption should be enabled for Azure Database for PostgreSQL servers_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/d92dbc40-c634-40e6-bd49-ba595a0b265a",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Log duration should be enabled for PostgreSQL database servers_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/050f891d-a01e-4e29-9d27-2304ac9067f8",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Monitor should collect activity logs from all regions_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/01e76923-0dc6-45e0-86f4-bc23ec8e83b7",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Disconnections should be logged for PostgreSQL database servers._1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/acefebe0-1f87-4f20-a3c6-56b3cf9ba1a8",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit Windows machines that do not have the specified Windows PowerShell execution policy_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/26277d82-0632-4604-990f-70d8c6b4778d",
+    "parameters": {
+     "ExecutionPolicy": {
+      "value": "RemoteSigned"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Windows machines should meet requirements for 'User Rights Assignment'_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/5048c8fb-d7d0-4233-a845-6aa6a5a0534e",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should be limited by allowed SKUs_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/ac850038-fe49-45e8-91a0-8ad5a4467931",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Activity log should be retained for at least one year_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/ccfa6cef-cbd7-41bf-8850-f5ff8f2ad504",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Monitor solution 'Security and Audit' must be deployed_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/c43c3766-0d3c-4e01-a799-bcaa01e630c3",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Flow logs should be enabled for every network security group_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/1f98660f-b4f2-46ef-9b98-20d80c414c82",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure subscriptions should have a log profile for Activity Log_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/9bbbc55c-c317-4984-8ce3-f73996194841",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Only approved VM extensions should be installed_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/52fa35e5-07e5-414f-ad3a-52dfd7fd8f9d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Monitor log profile should collect logs for categories 'write,' 'delete,' and 'action'_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/fd44f715-f7ad-49d9-851b-63abbe1469e6",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Log checkpoints should be enabled for PostgreSQL database servers_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/9b989f6c-c744-4ac5-8dd7-cc47789e85a5",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Log connections should be enabled for PostgreSQL database servers_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/471ede60-4226-48f7-aa71-b5469ba88164",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Private endpoints for Guest Configuration assignments should be enabled_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/9dd4e0b3-a5c5-40f5-99ec-32e7ad682d23",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure File Sync should use private link_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/1a052859-c8c0-456a-ba39-0cf0157288e2",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Application definition for Managed Application should use customer provided storage account_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/c85fd90b-b4d9-4d3d-b3b3-ee231145b4a1",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should allow access from trusted Microsoft services_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/768860ed-18f0-44c6-81de-3b8a4496e061",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Security Center standard pricing tier should be selected_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/dc972444-329a-4448-883f-96929b69664b",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should have infrastructure encryption_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/0e1fb977-d30b-429b-ba5a-5eb523f9320a",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit Windows machines that do not have the password complexity setting enabled_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/e4e3443f-3e37-483c-9acf-3f70d5269dc9",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit Windows machines that do not have a maximum password age of 70 days_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/85af49c0-02c5-4403-b7f4-a11cd3a5f988",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "An activity log alert should exist for specific Policy operations_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/88c192b3-071f-4bb6-9eb5-133ff78cb547",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit Windows machines that allow re-use of the previous 24 passwords_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/0850125c-f5c8-4021-9511-4d3b51cb5106",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit Windows machines that do not restrict the minimum password length to 14 characters_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/82720c7d-b2c6-4edd-b918-fbb95e2d8cc5",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Dependency agent should be enabled for listed virtual machine images_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/4e3d534c-59f3-4a45-bac6-79f5c6bd92a8",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "An activity log alert should exist for specific Administrative operations_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/beb87b02-b18e-49a4-a0f9-6093886d7a2d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit Windows machines that do not store passwords using reversible encryption_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/3e2730cc-6b05-467e-bdd2-2456fef7cbca",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "An activity log alert should exist for specific Security operations_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/04f998f7-1989-4b1b-b56a-e0be05e59789",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Key Vault secrets should have an expiration date_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/98728c90-32c7-4049-8429-847dc0f4fe37",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Keys should have more than the specified number of days before expiration_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/5ff38825-c5d8-47c5-b70e-069a21955146",
+    "parameters": {
+     "minimumDaysBeforeExpiration": {
+      "value": 180
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Keys should not be active for longer than the specified number of days_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/c26e4b24-cf98-4c67-b48b-5a25c4c69eb9",
+    "parameters": {
+     "maximumValidityInDays": {
+      "value": 365
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Secrets should have the specified maximum validity period_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/342e8053-e12e-4c44-be01-c3c2f318400f",
+    "parameters": {
+     "maximumValidityInDays": {
+      "value": 365
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Key Vault keys should have an expiration date_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/152b15f7-8e1f-4c1f-ab71-8c010ba5dbc0",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Secrets should have more than the specified number of days before expiration_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/b0eb591a-5e70-4534-a8bf-04b9c489584a",
+    "parameters": {
+     "minimumDaysBeforeExpiration": {
+      "value": 180
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Secrets should have content type set_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/75262d3e-ba4a-4f43-85f8-9f72c090e5e3",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Keys should have the specified maximum validity period_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49a22571-d204-4c91-a7b6-09b1a586fbc9",
+    "parameters": {
+     "maximumValidityInDays": {
+      "value": 365
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Not allowed resource types_1",
+    "policyDefinitionId": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policyDefinitions/b86fd00e-d5cd-44c5-a5b3-3c4539a0a4ec",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Backup should be enabled for Virtual Machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/013e242c-8828-4970-87b3-ab247555486d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit VMs that do not use managed disks_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/06a78e20-9358-41c9-923c-fb736d382a4d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Virtual machines should be migrated to new Azure Resource Manager resources_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1d84d5fb-01f6-4d12-ba4f-4a26081d403d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should be migrated to new Azure Resource Manager resources_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/37e0d2fe-28a5-43d6-a273-67d37d1f5606",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Secure transfer to storage accounts should be enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/404c3081-a854-4457-ae30-26a93ef643f9",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Microsoft IaaSAntimalware extension should be deployed on Windows servers_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9b597639-28e4-48eb-b506-56b05d366257",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Key vaults should have purge protection enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0b60c0b2-2dc2-4e1c-b5c9-abbed971de53",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Key vaults should have soft delete enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1e66c121-a66a-4b1f-9b83-0fd99bf0fc2d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Virtual machines and virtual machine scale sets should have encryption at host enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/fc4d8e41-e223-45ea-9bf5-eada37891d87",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "PostgreSQL server should use a virtual network service endpoint_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/3c14b034-bcb6-4905-94e7-5b8e98a47b65",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Public network access should be disabled for PostgreSQL servers_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/b52376f7-9612-48a1-81cd-1ffe4b61032c",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "[Preview]: Storage account public access should be disallowed_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4fa4b6c0-31ca-4c0d-b10d-24b96f62a751",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should restrict network access_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/34c877ad-507e-4c82-993e-3452a6e0ad3c",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should use private link_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6edd7eda-6dd8-40f7-810d-67160c639cd9",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "[Preview]: Private endpoint should be configured for Key Vault_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/5f0bc445-3935-4915-9981-011aa2b46147",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Private endpoint should be enabled for PostgreSQL servers_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0564d078-92f5-4f97-8398-b9f58a51f70b",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should restrict network access using virtual network rules_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a1a9cdf-e04d-429a-8416-3bfb72a1b26f",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Enforce SSL connection should be enabled for PostgreSQL database servers_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/d158790f-bfb0-486c-8631-2dc6b4e8e6af",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Geo-redundant backup should be enabled for Azure Database for PostgreSQL_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/48af4db5-9b8b-401c-8e74-076be876a430",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Backup should be enabled for Virtual Machines_2",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/013e242c-8828-4970-87b3-ab247555486d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Resource logs in Key Vault should be enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cf820ca0-f99e-4f3e-84fb-66e913812d21",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/cbda9fb2-2899-49ad-a147-bc56dcde6c5d/providers/Microsoft.Authorization/policySetDefinitions/3a64ae6cee1249958a8c1513",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "3a64ae6cee1249958a8c1513"
+}
